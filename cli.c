@@ -5,7 +5,7 @@
 #include "trip.h"
 
 #if DEV == 0
-const char *argp_program_version = "Version of tripcode: 0.2";
+const char *argp_program_version = "Version of tripcode: 0.3";
 const char *argp_program_bug_address = "<shichuang@horsefucker.org>";
 static char doc[] = "Maining tripcodes by pattern, count and case sensitivity";
 static char args_doc[] = "-m PATTERN -c COUNT";
